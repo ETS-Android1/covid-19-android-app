@@ -9,6 +9,9 @@
 # Java class files
 *.class
 
+#Image and icons resources zip
+covid-19.zip
+
 # Generated files
 bin/
 gen/
