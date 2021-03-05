@@ -14,7 +14,7 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="CallButtonColor"
+    <style name="RedColorButton"
         parent="Widget.MaterialComponents.Button">
         <item name="materialThemeOverlay">@style/RedButtonThemeOverlay</item>
     </style>
@@ -23,7 +23,7 @@
         <item name="colorPrimary">@color/red</item>
     </style>
 
-    <style name="SendSmsButtonColor"
+    <style name="BlueColorButton"
         parent="Widget.MaterialComponents.Button">
         <item name="materialThemeOverlay">@style/NewBlueButtonThemeOverlay</item>
     </style>
