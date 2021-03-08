@@ -32,7 +32,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:fontFamily="@font/graphikmedium"
-                android:text="Serious"
+                android:text="@string/serious"
                 android:textColor="#FFFFFF"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -44,7 +44,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginBottom="8dp"
                 android:fontFamily="@font/graphiksemibold"
-                android:text="12,786"
+                android:text="@string/_12_786"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -78,7 +78,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:fontFamily="@font/graphikmedium"
-                android:text="Recovered"
+                android:text="@string/recovered"
                 android:textColor="#FFFFFF"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -90,7 +90,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginBottom="16dp"
                 android:fontFamily="@font/graphiksemibold"
-                android:text="5,765"
+                android:text="@string/_5_765"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -124,7 +124,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:fontFamily="@font/graphikmedium"
-                android:text="Death"
+                android:text="@string/death"
                 android:textColor="#FFFFFF"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -136,7 +136,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginBottom="16dp"
                 android:fontFamily="@font/graphiksemibold"
-                android:text="9,750"
+                android:text="@string/_9_750"
                 android:textColor="#FFFFFF"
                 android:textSize="24sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -153,7 +153,8 @@
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/back" />
+        app:srcCompat="@drawable/back"
+        android:contentDescription="@string/todo" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -162,7 +163,8 @@
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView"
-        app:srcCompat="@drawable/ic_bell" />
+        app:srcCompat="@drawable/ic_bell"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/textView"
@@ -171,7 +173,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
         android:fontFamily="@font/graphikmedium"
-        android:text="Statistics"
+        android:text="@string/statistics"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -185,7 +187,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="4dp"
         android:background="@drawable/spinner_bg"
-        android:text="My Country"
+        android:text="@string/my_country"
         android:textAllCaps="false"
         android:textColor="#000000"
         app:layout_constraintEnd_toStartOf="@+id/button4"
@@ -200,7 +202,7 @@
         android:layout_marginStart="4dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/statistic_button"
-        android:text="Global"
+        android:text="@string/global"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/button3"
@@ -216,7 +218,7 @@
         android:layout_marginStart="64dp"
         android:layout_marginTop="32dp"
         android:fontFamily="@font/graphiksemibold"
-        android:text="Total"
+        android:text="@string/total"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toStartOf="@+id/textView9"
@@ -229,7 +231,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:fontFamily="@font/graphiksemibold"
-        android:text="Today"
+        android:text="@string/today"
         android:textAlignment="center"
         android:textColor="#B2AFAF"
         app:layout_constraintBottom_toBottomOf="@+id/textView8"
@@ -244,7 +246,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="64dp"
         android:fontFamily="@font/graphiksemibold"
-        android:text="Yesterday"
+        android:text="@string/yesterday"
         android:textAlignment="center"
         android:textColor="#B2AFAF"
         app:layout_constraintBottom_toBottomOf="@+id/textView9"
@@ -278,7 +280,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:fontFamily="@font/graphikmedium"
-                android:text="Affected"
+                android:text="@string/affected"
                 android:textColor="#FFFFFF"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -290,7 +292,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginBottom="16dp"
                 android:fontFamily="@font/graphiksemibold"
-                android:text="6,67,765"
+                android:text="@string/_667_765"
                 android:textColor="#FFFFFF"
                 android:textSize="24sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -324,7 +326,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:fontFamily="@font/graphikmedium"
-                android:text="Active"
+                android:text="@string/active"
                 android:textColor="#FFFFFF"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -336,7 +338,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginBottom="16dp"
                 android:fontFamily="@font/graphiksemibold"
-                android:text="3,70,567"
+                android:text="@string/_370_567"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -365,7 +367,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView21"
-            app:srcCompat="@drawable/map" />
+            app:srcCompat="@drawable/map"
+            android:contentDescription="@string/todo" />
 
         <TextView
             android:id="@+id/textView21"
@@ -374,7 +377,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="24dp"
             android:fontFamily="@font/graphikregular"
-            android:text="Spread of virus"
+            android:text="@string/spread_of_virus"
             android:textColor="@android:color/black"
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
@@ -387,7 +390,7 @@
             android:layout_marginTop="24dp"
             android:layout_marginEnd="16dp"
             android:fontFamily="@font/graphikregular"
-            android:text="See All"
+            android:text="@string/see_all"
             android:textColor="#536DFE"
             android:textSize="14sp"
             app:layout_constraintBottom_toBottomOf="@+id/textView21"
