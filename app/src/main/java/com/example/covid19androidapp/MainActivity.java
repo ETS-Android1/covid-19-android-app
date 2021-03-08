@@ -2,10 +2,12 @@ package com.example.covid19androidapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Spinner;
 
@@ -13,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     ImageView flags;
     Spinner spinner;
+    Button stat;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
         spinner = findViewById(R.id.spinner);
         flags = findViewById(R.id.flag);
+        stat = findViewById(R.id.stat);
 
         spinner.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item,
                 CountryData.countryNames));
@@ -39,6 +43,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        stat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
 
+                Intent i = new Intent(MainActivity.this, Statistics.class);
+                startActivity(i);
+
+            }
+        });
     }
 }
