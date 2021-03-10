@@ -200,6 +200,8 @@
         app:layout_constraintTop_toBottomOf="@+id/textView"
         style="@style/WhiteColorButton"/>
 
+<!--        Add white border for button "Global"      -->
+
     <Button
         android:id="@+id/button4"
         android:layout_width="0dp"
