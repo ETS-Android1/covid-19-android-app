@@ -19,8 +19,6 @@ public class Statistics extends AppCompatActivity {
 
         back.setOnClickListener(view -> {
 
-            Intent i =new Intent(Statistics.this, MainActivity.class);
-            startActivity(i);
             finish();
 
         });
